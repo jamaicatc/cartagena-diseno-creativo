@@ -5,34 +5,6 @@
     font-style: bold;
 }
 
-@font-face {
-    font-family: "hammersmith";
-    src: url("/assets/fonts/hammersmith.ttf");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "hammersmith";
-    src: url("/assets/fonts/hammersmith.ttf");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "hammersmith";
-    src: url("/assets/fonts/hammersmith.ttf");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "hammersmith";
-    src: url("/assets/fonts/hammersmith.ttf");
-    font-weight: 900;
-    font-style: bold;
-}
-
 #bars {
     display: none;
 }
@@ -44,7 +16,7 @@ body {
     background-color: #9A7BB7;
     margin: 0;
     padding: 0;
-    font-family: "hammersmith";
+    font-family: "Hammersmith One", sans-serif;
 }
 
 /*cabecera*/
@@ -213,6 +185,7 @@ nav ul li a:hover {
     margin: 10px 0 50px 0;
     font-weight: lighter;
     text-align: left;
+    margin-right: 170px;
 }
 
 /*contenido de la pagina de servicios*/
@@ -317,6 +290,7 @@ nav ul li a:hover {
 .seccion-CD p {
     margin: 30px;
     color: #9A7BB7;
+    margin-right: 160px;
 }
 
 .seccion-CD img {
@@ -388,6 +362,7 @@ nav ul li a:hover {
     margin: 30px;
     color: #9A7BB7;
     text-align: left;
+    margin-right: 170px;
 }
 
 .seccion-CPM img {
@@ -865,14 +840,14 @@ nav ul li a:hover {
 }
 
 .seccion-IV h2 {
-    margin-right: 10px;
+    margin: 0px;
     color: #563d7c;
     text-align: center;
     font-size: 40px;
 }
 
 .seccion-IV p {
-    margin: 30px;
+    margin: 20px;
     color: #9A7BB7;
     text-align: center;
 }
@@ -899,14 +874,14 @@ nav ul li a:hover {
 }
 
 .seccion-IDE h2 {
-    margin-right: 10px;
+    margin: 0px;
     color: #563d7c;
     text-align: center;
     font-size: 40px;
 }
 
 .seccion-IDE p {
-    margin: 30px;
+    margin: 20px;
     color: #9A7BB7;
     text-align: center;
 }
@@ -940,7 +915,7 @@ nav ul li a:hover {
 }
 
 .seccion-CD  p {
-    margin: 30px;
+    margin: 20px;
     color: #9A7BB7;
     text-align: center;
 }
@@ -1072,8 +1047,9 @@ nav ul li a:hover {
 }
 
 .imagenes-seccion-SM img {
-    width: 100px;
-    height: 100px;
+    max-width: 300px;
+    height: 200px;
+    margin: 10px;
 }
 
 
