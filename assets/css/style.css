@@ -239,14 +239,16 @@ nav ul li a:hover {
 .seccion-IV h2 {
     margin-right: 10px;
     color: #563d7c;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
+    margin-left: 40px;
 }
 
 .seccion-IV p {
-    margin: 30px;
     color: #9A7BB7;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
 }
 
 .seccion-IV img {
@@ -281,7 +283,8 @@ nav ul li a:hover {
     margin: 20px;
     text-align: right;
     color: #9A7BB7;
-    font-size: 20px;
+    font-size: 19px;
+    margin-left: 139px;
 }
 
 .seccion-IDE img {
@@ -306,8 +309,9 @@ nav ul li a:hover {
 .seccion-CD h2 {
     margin-right: 10px;
     color: #563d7c;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
+    margin-left: 30px;
 }
 
 .seccion-CD p {
@@ -338,14 +342,14 @@ nav ul li a:hover {
 
 .seccion-HM h2 {
     margin: 20px;
-    text-align: center;
+    text-align: right;
     color: #563d7c;
     font-size: 45px;
 }
 
 .seccion-HM p {
-    margin: 20px;
-    text-align: center;
+    margin: 30px;
+    text-align: right;
     color: #9A7BB7;
     font-size: 20px;
 }
@@ -356,7 +360,9 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-
+.contenedor-HM-text {
+    margin-left: 40px;
+}
 
 /*seccion consolida tu presencia en el mercado*/
 
@@ -371,16 +377,17 @@ nav ul li a:hover {
 }
 
 .seccion-CPM h2 {
-    margin-right: 10px;
+    margin-right: 180px;
     color: #563d7c;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
+    margin-left: 30px;
 }
 
 .seccion-CPM p {
     margin: 30px;
     color: #9A7BB7;
-    text-align: center;
+    text-align: left;
 }
 
 .seccion-CPM img {
@@ -570,7 +577,7 @@ nav ul li a:hover {
     .imagenes-logos{
         display: flex; /* Activa Flexbox para el contenedor */
         flex-direction: row; /* Alinea los elementos en fila */
-        width: 100px;
+        width: 99%;
         height: auto;
     }
 
@@ -578,7 +585,7 @@ nav ul li a:hover {
         flex: 1 0 auto; /* Permite que las imágenes ocupen el espacio disponible */
         max-width: 99%; /* Ancho máximo para cada imagen */
         height: auto; /* Mantiene la proporción de aspecto de las imágenes */
-        margin-right: 160px;
+        margin-right: 15px;
         margin-left: 15px;
         width: 100px;
         height: auto;
@@ -640,8 +647,9 @@ nav ul li a:hover {
     .seccion-CMD h2 {
         margin-right: 10px;
         color: #563d7c;
-        text-align: center;
-        font-size: 30px;
+        text-align: left;
+        font-size: 35px;
+        margin-left: 30px;
     }
     
     .seccion-CMD p {
@@ -672,11 +680,13 @@ nav ul li a:hover {
     }
 
     .contenedor-vermas img {
-        max-width: 450px; /* Ancho máximo para cada imagen */
-        width: 200px;
         margin: 30px;
-        height: 200px;
+        width: 100%;
         border-radius: 10px;
+    }
+
+    .contenedor-vermas-movil {
+        display: none;
     }
 /*diseño responsivo en dispositivos moviles*/
 
@@ -687,7 +697,7 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         margin: 10px;
-        padding: 0;;
+        padding: 0;
     }
 
     .img-main img {
@@ -926,6 +936,7 @@ nav ul li a:hover {
     color: #563d7c;
     text-align: center;
     font-size: 40px;
+    margin-left: 0px;
 }
 
 .seccion-CD  p {
@@ -955,6 +966,11 @@ nav ul li a:hover {
     margin: 10px;
     margin-bottom: 10px;
 }
+
+.contenedor-HM-text {
+    margin-left: 0px;
+}
+
 
 .seccion-HM  h2 {
     margin-right: 10px;
@@ -1181,10 +1197,9 @@ nav ul li a:hover {
 
 .imagenes-logos img {
     flex: 1 0 auto; /* Permite que las imágenes ocupen el espacio disponible */
-    max-width: 99%; /* Ancho máximo para cada imagen */
+    max-width: 350px; /* Ancho máximo para cada imagen */
     height: auto; /* Mantiene la proporción de aspecto de las imágenes */
-    margin-left: 140px;
-    width: 100px;
+    width: 350px;
     height: auto;
 }
 
@@ -1195,11 +1210,32 @@ nav ul li a:hover {
 }
 
 .contenedor-vermas {
-    display: flex; /* Activa Flexbox para el contenedor */
+    display: none; /* Activa Flexbox para el contenedor */
     flex-direction: column; /* Alinea los elementos en fila */
     width: 95%;
     border-radius: 10px;
     margin: 10px;
+}
+
+.contenedor-vermas-movil {
+    display: flex; /* Activa Flexbox para el contenedor */
+    flex-direction: column; /* Alinea los elementos en fila */
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contenedor-vermas-movil img {
+    margin: 10px;
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .contenedor-vermas img {
