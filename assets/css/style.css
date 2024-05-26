@@ -406,13 +406,12 @@ nav ul li a:hover {
 
 .redes ul li a img  {
     background-color: #9A7BB7;
-    border-radius: 10px;
     width: 60px;
     border-radius: 70px;
+    border: #9A7BB7 2px solid;
     text-align: center;
     margin-right: 20px;
     align-items: center;
-
 }
 
 .seccion-cotizar {
@@ -466,8 +465,8 @@ nav ul li a:hover {
     cursor: pointer;
     color: #D8BCE0;
     margin-left: 80px;
-    font-size: 25px;
-    border-radius: 10px;
+    font-size: 15px;
+    border-radius: 4px;
 }
 
 /*servicio de social media*/
@@ -648,16 +647,16 @@ nav ul li a:hover {
     .contenedor-vermas {
         display: flex; /* Activa Flexbox para el contenedor */
         flex-direction: row; /* Alinea los elementos en fila */
-        width: 98%;
+        max-width: 100%;
         background-color: #d8bce0;
         border-radius: 10px;
         margin: 10px;
     }
 
     .contenedor-vermas img {
-        margin: 30px;
-        width: 100%;
+        width: 97%;
         border-radius: 10px;
+        margin-left: 20px;
     }
 
     .contenedor-vermas-movil {
