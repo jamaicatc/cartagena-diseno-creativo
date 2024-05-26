@@ -1,0 +1,1148 @@
+@font-face {
+    font-family: "adelia";
+    src: url("/assets/fonts/adelia.ttf");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "hammersmith";
+    src: url("/assets/fonts/hammersmith.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hammersmith";
+    src: url("/assets/fonts/hammersmith.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hammersmith";
+    src: url("/assets/fonts/hammersmith.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hammersmith";
+    src: url("/assets/fonts/hammersmith.ttf");
+    font-weight: 900;
+    font-style: bold;
+}
+
+#bars {
+    display: none;
+}
+
+
+body {
+    font-family: 'Hammersmith One', Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #9A7BB7;
+    margin: 0;
+    padding: 0;
+    font-family: "hammersmith";
+}
+
+/*cabecera*/
+
+header {
+    background-color: #d8bce0;
+    padding: 5px;
+}
+
+/*barra de navegacion*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #946CB2;
+    padding: 8px;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav ul li img {
+    height: 70px;
+    margin: 10px;
+}
+
+
+nav ul li a:hover {
+    background-color: #563d7c;
+    color: #fff;
+}
+
+/*imagenes del contenido principal main*/
+.img-main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.img-main img {
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*texto del contenido principal main*/
+
+.img-main p {
+    margin: 0 30px 0 0;
+    max-width: 500px;
+    text-align: right;
+    color: #6c5b7b;
+    font-size: 39px;
+    font-weight: normal;
+    text-align: end;
+}
+
+.img-main p strong {
+    font-weight: bold;
+    color: #563d7c;
+}
+
+/*seccion de fotos y texto de angie*/
+
+.seccion-angie {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 99%;
+    margin: 10px;
+    background-color: #d8bce0; /* Color de fondo de la sección */
+    border-radius: 20px;
+}
+
+.seccion-texto{
+    flex: 1;
+    padding: 0px;
+    margin-left: 100px;
+}
+
+/*imagenes de la seccion de angie*/
+
+.img-angie2 {
+    background-color: #BF306A;
+    position: relative;
+    width: 300px; /* Ancho del cilindro */ 
+    height: 600px; /* Altura del cilindro */
+    border-radius: 150px; /* Radio del borde para formar un cilindro */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+    display: none;
+}
+
+.img-angie {
+    background-color: #BF306A;
+    position: relative;
+    width: 300px; /* Ancho del cilindro */ 
+    height: 600px; /* Altura del cilindro */
+    border-radius: 150px; /* Radio del borde para formar un cilindro */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+
+.img-angie img {
+    max-width: 300px;
+}
+
+.img-angie2 img {
+    max-width: 300px;
+}
+/*texto de la seccion de angie*/
+
+.seccion-texto h1 {
+    color: #563d7c;
+    font-size: 2.5em;
+    font-weight: bolder;
+    
+}
+
+.seccion-texto h2 {
+    font-family: "adelia";
+    color: #563d7c;
+    font-size: 25px;
+}
+
+.seccion-texto h3 {
+    color: #563d7c;
+    font-size: 1.5em;
+    margin: 10px 0px 50px 0px;
+}
+
+
+.seccion-texto h4 {
+    color: #563d7c;
+    margin: 0;
+    font-size: 20px;
+}
+
+.seccion-texto p {
+    color: #563d7c;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px 0 50px 0;
+    font-weight: lighter;
+    text-align: left;
+}
+
+/*contenido de la pagina de servicios*/
+
+/*seccion identidad visual de tu marca*/
+
+.seccion-IV {
+    background-color: #d8bce0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.title-branding {
+    color: #d8bce0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seccion-IV h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-IV p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-IV img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion destaca tu identidad*/
+
+.seccion-IDE {
+    background-color: #d8bce0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+.seccion-IDE h2 {
+    margin: 20px;
+    text-align: right;
+    color: #563d7c;
+    font-size: 45px;
+}
+
+.seccion-IDE p {
+    margin: 20px;
+    text-align: right;
+    color: #9A7BB7;
+    font-size: 20px;
+}
+
+.seccion-IDE img {
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion crea una conexion duradera*/
+
+.seccion-CD {
+    background-color: #d8bce0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-CD h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-CD p {
+    margin: 30px;
+    color: #9A7BB7;
+}
+
+.seccion-CD img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion haz que tu marca cuente una historia*/
+
+.seccion-HM {
+    background-color: #d8bce0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+.seccion-HM h2 {
+    margin: 20px;
+    text-align: center;
+    color: #563d7c;
+    font-size: 45px;
+}
+
+.seccion-HM p {
+    margin: 20px;
+    text-align: center;
+    color: #9A7BB7;
+    font-size: 20px;
+}
+
+.seccion-HM img {
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/*seccion consolida tu presencia en el mercado*/
+
+.seccion-CPM {
+    background-color: #d8bce0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-CPM h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-CPM p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-CPM img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion de redes*/
+
+.redes {
+    background-color: #896CAC;
+    align-items: center;;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.redes h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #DED5EA;
+    margin: 10px;
+}
+
+.redes ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.redes ul li {
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.redes ul li a img  {
+    background-color: #DED5EA;
+    width: 60px;
+    border-radius: 70px;
+    text-align: center;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+.seccion-cotizar input{
+    width: 400px;
+    height: auto;
+    display: block;
+    background-color: #C1B1CE;
+    border-radius: 10px;
+    border: none;
+}
+
+.seccion-cotizar h1{
+    color: #B7A4C7;
+}
+
+/*servicio de social media*/
+
+.title-social {
+    color: #d8bce0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seccion-SM {
+    display: flex;
+    flex-direction: row;
+    background-color: #d8bce0;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-SM img{
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.imagenes-seccion-SM {
+    display: flex; /* Activa Flexbox para el contenedor */
+    flex-direction: row; /* Alinea los elementos en fila */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    width: 10px;
+    margin-left: 40px;
+}
+
+.imagenes-seccion-SM img {
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor-seccion-SM-text {
+    padding: 10px;
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 0px; /* Margen inferior */
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en fila */
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contenedor-seccion-SM-text h2 {
+    font-size: 35px; /* Ejemplo de tamaño de fuente */
+    color: #532C7A; /* Ejemplo de color de texto */
+    margin-left: 40px;
+  }
+
+  .contenedor-seccion-SM-text2 h2 {
+    color: #532C7A; /* Ejemplo de color de texto */
+    margin-left: 20px;
+  }
+
+  .contenedor-seccion-SM-text2 p {
+    margin-left: 20px;
+    color: #9A7BB7;
+    font-size: 25px;
+  }
+  
+  .contenedor-seccion-SM-text img {
+    width: 300px; /* Ejemplo de ancho */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-left: 60px;
+  }
+
+  /*servicio de diseño grafico*/
+
+  .title-design {
+    color: #d8bce0;
+    font-size: 40px;
+    text-align: center;
+}
+
+    .imagenes-logos{
+        display: flex; /* Activa Flexbox para el contenedor */
+        flex-direction: row; /* Alinea los elementos en fila */
+        width: 100px;
+        height: auto;
+    }
+
+    .imagenes-logos img {
+        flex: 1 0 auto; /* Permite que las imágenes ocupen el espacio disponible */
+        max-width: 99%; /* Ancho máximo para cada imagen */
+        height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+        margin-right: 100px;
+        margin-left: 15px;
+        width: 100px;
+        height: auto;
+    }
+
+    /*seccion de diseño grafico*/
+
+    .seccion-TTV {
+        background-color: #d8bce0;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #d8bce0;
+        border-radius: 10px;
+        margin: 10px;
+        margin-bottom: 10px;
+        flex-direction: row-reverse;
+    }
+    
+    .seccion-TTV h2 {
+        margin: 20px;
+        text-align: right;
+        color: #563d7c;
+        font-size: 35px;
+    }
+    
+    .seccion-TTV p {
+        margin: 20px;
+        text-align: right;
+        color: #9A7BB7;
+        font-size: 20px;
+    }
+    
+    .seccion-TTV img {
+        max-width: 450px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .seccion-CMD {
+        background-color: #d8bce0;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #d8bce0;
+        border-radius: 10px;
+        margin: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .seccion-CMD h2 {
+        margin-right: 10px;
+        color: #563d7c;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .seccion-CMD p {
+        margin: 30px;
+        color: #9A7BB7;
+        text-align: justify;
+    }
+    
+    .seccion-CMD img {
+        max-width: 450px;
+        height: auto;
+        border-radius: 10px;
+    }
+    /*seccion ver mas*/
+    .seccion-vermas h2{
+        color: #d8bce0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contenedor-vermas {
+        display: flex; /* Activa Flexbox para el contenedor */
+        flex-direction: row; /* Alinea los elementos en fila */
+        width: 98%;
+        background-color: #d8bce0;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .contenedor-vermas img {
+        max-width: 450px; /* Ancho máximo para cada imagen */
+        width: 200px;
+        margin: 5px;
+        height: 200px;
+        border-radius: 10px;
+    }
+/*diseño responsivo en dispositivos moviles*/
+
+@media (max-width: 768px) {
+
+    .img-main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding: 0;;
+    }
+
+    .img-main img {
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-main p {
+        text-align: center;
+        color: #6c5b7b;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    
+    .img-main p strong {
+        font-weight: bold;
+        color: #563d7c;
+    }
+
+
+    /*seccion de fotos y texto de angie*/
+
+    .seccion-angie {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        max-width: 99%;
+        margin: 10px;
+        background-color: #d8bce0; /* Color de fondo de la sección */
+        border-radius: 20px;
+}
+
+    .seccion-texto{
+        flex: 1;
+        padding: 0px;
+        margin: 0px;
+}
+
+/*imagenes de la seccion de angie*/
+
+    .img-angie {
+        position: relative;
+        width: 300px; /* Ancho del cilindro */
+        height: 600px; /* Altura del cilindro */
+        border-radius: 150px; /* Radio del borde para formar un cilindro */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 20px;
+        display: none;
+}
+
+    .img-angie2 {
+        position: relative;
+        width: 300px; /* Ancho del cilindro */
+        height: 600px; /* Altura del cilindro */
+        border-radius: 150px; /* Radio del borde para formar un cilindro */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 20px;
+    }
+
+
+    .img-angie img {
+        max-width: 300px;
+        display: flex;
+}
+
+/*texto de la seccion de angie*/
+    .seccion-texto h1 {
+        color: #563d7c;
+        font-size: 25px;
+        text-align: center;
+}
+
+    .seccion-texto h2 {
+        font-family: "adelia";
+        color: #563d7c;
+        font-size: 20px;
+        text-align: center;
+}
+
+    .seccion-texto h3 {
+        color: #563d7c;
+        font-size: 1.5em;
+        margin: 10px 0px 50px 0px;
+        text-align: center;
+}
+
+
+    .seccion-texto h4 {
+        color: #563d7c;
+        margin: 0;
+        font-size: 20px;
+        text-align: center;
+}
+
+    .seccion-texto p {
+        color: #563d7c;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 10px 0 50px 0;
+        font-weight: lighter;
+        text-align: center;
+        
+}
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #d8bce0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #bars {
+        display: block;
+        color: #946CB2;
+    }
+
+    #logo {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /*contenido de la pagina de servicios*/
+
+/*seccion identidad visual de tu marca*/
+
+.seccion-IV {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.title-branding {
+    color: #d8bce0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seccion-IV h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-IV p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-IV img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion destaca tu identidad*/
+
+.seccion-IDE {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-IDE h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-IDE p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-IDE img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion crea una conexion duradera*/
+
+.seccion-CD {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-CD h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-CD p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-CD img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion haz que tu marca cuente una historia*/
+
+.seccion-HM {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-HM  h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-HM  p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-HM  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/*seccion consolida tu presencia en el mercado*/
+
+.seccion-CPM {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-CPM  h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-CPM  p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-CPM  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion social media*/
+
+.seccion-SM {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-SM h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-SM p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-SM img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagenes-seccion-SM {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenes-seccion-SM img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*seccion creacio de contenido y comunicacion innovacion estetica*/
+
+.contenedor-seccion-SM-text {
+    padding: 10px;
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 0px; /* Margen inferior */
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en fila */
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contenedor-seccion-SM-text h2 {
+    font-size: 35px; /* Ejemplo de tamaño de fuente */
+    color: #532C7A; /* Ejemplo de color de texto */
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  .contenedor-seccion-SM-text2 h2 {
+    color: #532C7A; /* Ejemplo de color de texto */
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .contenedor-seccion-SM-text2 p {
+    margin-left: 10px;
+    color: #9A7BB7;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .contenedor-seccion-SM-text img {
+    width: 300px; /* Ejemplo de ancho */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-left: 20px;
+  }
+
+  .seccion-TTV {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-TTV  h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-TTV  p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-TTV  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.seccion-CMD {
+    background-color: #d8bce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d8bce0;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion-CMD  h2 {
+    margin-right: 10px;
+    color: #563d7c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-CMD  p {
+    margin: 30px;
+    color: #9A7BB7;
+    text-align: center;
+}
+
+.seccion-CMD  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*seccion logos*/
+
+.imagenes-logos{
+    display: flex; /* Activa Flexbox para el contenedor */
+    flex-direction: column; /* Alinea los elementos en fila */
+    width: 100px;
+    height: auto;
+}
+
+.imagenes-logos img {
+    flex: 1 0 auto; /* Permite que las imágenes ocupen el espacio disponible */
+    max-width: 99%; /* Ancho máximo para cada imagen */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    margin-left: 140px;
+    width: 100px;
+    height: auto;
+}
+
+/*seccion ver mas*/
+.seccion-vermas h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.contenedor-vermas {
+    display: flex; /* Activa Flexbox para el contenedor */
+    flex-direction: column; /* Alinea los elementos en fila */
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contenedor-vermas img {
+    max-width: 450px; /* Ancho máximo para cada imagen */
+    width: 300px;
+    margin-left: 28px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+}
