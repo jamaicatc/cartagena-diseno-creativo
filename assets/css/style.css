@@ -105,6 +105,8 @@ nav ul li a:hover {
     margin: 10px;
     background-color: #d8bce0; /* Color de fondo de la sección */
     border-radius: 20px;
+    background-image: url("/assets/img/burbujas.png");
+    background-size: cover;
 }
 
 .seccion-texto{
@@ -454,7 +456,6 @@ nav ul li a:hover {
 
 .seccion-cotizar img{
     max-width: 400px;
-    filter: drop-shadow(10px 10px 10px #5c4a6d);
 }
 
 .seccion-cotizar button {
@@ -508,36 +509,48 @@ nav ul li a:hover {
 
 .contenedor-seccion-SM-text {
     padding: 10px;
-    margin-top: 20px; /* Margen superior */
+    margin-top: 0px; /* Margen superior */
     margin-bottom: 0px; /* Margen inferior */
     display: flex;
     flex-direction: row; /* Alinea los elementos en fila */
     background-color: #d8bce0;
     border-radius: 10px;
     margin: 10px;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
 }
-
+.contenedor-seccion-SM-text2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
 .contenedor-seccion-SM-text h2 {
-    font-size: 35px; /* Ejemplo de tamaño de fuente */
+    font-size: 30px; /* Ejemplo de tamaño de fuente */
     color: #532C7A; /* Ejemplo de color de texto */
     margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .contenedor-seccion-SM-text2 h2 {
     color: #532C7A; /* Ejemplo de color de texto */
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: left;
   }
 
   .contenedor-seccion-SM-text2 p {
-    margin-left: 20px;
+    margin: 0;
+    padding: 10px;
     color: #9A7BB7;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .contenedor-seccion-SM-text img {
-    width: 300px; /* Ejemplo de ancho */
+    max-width: 500px; /* Ejemplo de ancho */
     height: auto; /* Mantiene la proporción de aspecto */
-    margin-left: 60px;
+    margin-left: 20px;
   }
 
   /*servicio de diseño grafico*/
@@ -662,6 +675,13 @@ nav ul li a:hover {
     .contenedor-vermas-movil {
         display: none;
     }
+
+    .contenedor-seccion-cotizar img{
+        width: 300px;
+        height: auto;
+        margin: 50px;
+        margin-left: 70px;
+    }
 /*diseño responsivo en dispositivos moviles*/
 
 @media (max-width: 768px) {
@@ -706,6 +726,8 @@ nav ul li a:hover {
         margin: 10px;
         background-color: #d8bce0; /* Color de fondo de la sección */
         border-radius: 20px;
+        background-image: url("/assets/img/burbujas.png");
+        background-size: cover;
 }
 
     .seccion-texto{
@@ -1068,13 +1090,13 @@ nav ul li a:hover {
 .contenedor-seccion-SM-text h2 {
     font-size: 35px; /* Ejemplo de tamaño de fuente */
     color: #532C7A; /* Ejemplo de color de texto */
-    margin-left: 10px;
+    margin-left: 0px;
     text-align: center;
   }
 
   .contenedor-seccion-SM-text2 h2 {
     color: #532C7A; /* Ejemplo de color de texto */
-    margin-left: 20px;
+    margin-left: 0px;
     text-align: center;
   }
 
@@ -1088,7 +1110,7 @@ nav ul li a:hover {
   .contenedor-seccion-SM-text img {
     width: 300px; /* Ejemplo de ancho */
     height: auto; /* Mantiene la proporción de aspecto */
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .seccion-TTV {
@@ -1305,7 +1327,6 @@ nav ul li a:hover {
 .seccion-cotizar img{
     max-width: 300px;
     margin-left: 20px;
-    filter: drop-shadow(10px 10px 10px #5c4a6d);
 }
 
 .seccion-cotizar button {
