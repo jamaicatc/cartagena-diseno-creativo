@@ -1,34 +1,34 @@
 @font-face {
     font-family: "adelia";
-    src: url("/portafolio/assets/fonts/adelia.ttf");
+    src: url("/assets/fonts/adelia.ttf");
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face {
     font-family: "hammersmith";
-    src: url("/portafolio/assets/fonts/hammersmith.ttf");
+    src: url("/assets/fonts/hammersmith.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: "hammersmith";
-    src: url("/portafolio/assets/fonts/hammersmith.ttf");
+    src: url("/assets/fonts/hammersmith.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "hammersmith";
-    src: url("/portafolio/assets/fonts/hammersmith.ttf");
+    src: url("/assets/fonts/hammersmith.ttf");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "hammersmith";
-    src: url("/portafolio/assets/fonts/hammersmith.ttf");
+    src: url("/assets/fonts/hammersmith.ttf");
     font-weight: 900;
     font-style: bold;
 }
@@ -109,7 +109,7 @@ nav ul li a:hover {
 /*texto del contenido principal main*/
 
 .img-main p {
-    margin: 0 30px 0 0;
+    margin-left: 230px;
     max-width: 500px;
     text-align: right;
     color: #6c5b7b;
@@ -253,6 +253,7 @@ nav ul li a:hover {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
+    margin-left: 100px;
 }
 
 /*seccion destaca tu identidad*/
@@ -318,6 +319,7 @@ nav ul li a:hover {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
+    margin-left: 100px;
 }
 
 /*seccion haz que tu marca cuente una historia*/
@@ -390,7 +392,7 @@ nav ul li a:hover {
 /*seccion de redes*/
 
 .redes {
-    background-color: #896CAC;
+    background-color: #D8BCE0;
     align-items: center;;
     margin: 10px;
     border-radius: 10px;
@@ -399,7 +401,7 @@ nav ul li a:hover {
 .redes h2 {
     text-align: center;
     font-size: 60px;
-    color: #DED5EA;
+    color: #9A7BB7;
     margin: 10px;
 }
 
@@ -421,7 +423,8 @@ nav ul li a:hover {
 
 
 .redes ul li a img  {
-    background-color: #DED5EA;
+    background-color: #9A7BB7;
+    border-radius: 10px;
     width: 60px;
     border-radius: 70px;
     text-align: center;
@@ -430,17 +433,59 @@ nav ul li a:hover {
 
 }
 
+.seccion-cotizar {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #D8BCE0;
+    border-radius: 20px;
+}
+
+.seccion-cotizar form {
+    margin-top: 20px;
+}
+
+.seccion-cotizar label{
+    color: #A787C6;
+    margin-left: 80px;
+}
+
 .seccion-cotizar input{
-    width: 400px;
-    height: auto;
+    width: 350px;
+    height: 25px;
     display: block;
     background-color: #C1B1CE;
     border-radius: 10px;
     border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.seccion-cotizar h1{
-    color: #B7A4C7;
+.title-cotizar {
+    color: #A787C6;
+    text-align: center;
+    background-color: #D8BCE0;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.seccion-cotizar img{
+    max-width: 400px;
+    filter: drop-shadow(10px 10px 10px #5c4a6d);
+}
+
+.seccion-cotizar button {
+    all: unset;
+    border: none;
+    background-color: #896CAC;
+    padding: 0;
+    cursor: pointer;
+    color: #D8BCE0;
+    margin-left: 80px;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 /*servicio de social media*/
@@ -471,13 +516,13 @@ nav ul li a:hover {
     display: flex; /* Activa Flexbox para el contenedor */
     flex-direction: row; /* Alinea los elementos en fila */
     justify-content: space-between; /* Distribuye el espacio entre los elementos */
-    width: 10px;
-    margin-left: 40px;
+    width: 50px;
+    margin-left: 100px;
 }
 
 .imagenes-seccion-SM img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 }
 
 .contenedor-seccion-SM-text {
@@ -533,7 +578,7 @@ nav ul li a:hover {
         flex: 1 0 auto; /* Permite que las imágenes ocupen el espacio disponible */
         max-width: 99%; /* Ancho máximo para cada imagen */
         height: auto; /* Mantiene la proporción de aspecto de las imágenes */
-        margin-right: 100px;
+        margin-right: 160px;
         margin-left: 15px;
         width: 100px;
         height: auto;
@@ -551,6 +596,10 @@ nav ul li a:hover {
         margin: 10px;
         margin-bottom: 10px;
         flex-direction: row-reverse;
+    }
+
+    .seccion-TTV div {
+        margin-left: 90px;
     }
     
     .seccion-TTV h2 {
@@ -582,6 +631,10 @@ nav ul li a:hover {
         border-radius: 10px;
         margin: 10px;
         margin-bottom: 10px;
+    }
+
+    .seccion-CMD div {
+        margin-right: 180px;
     }
     
     .seccion-CMD h2 {
@@ -621,7 +674,7 @@ nav ul li a:hover {
     .contenedor-vermas img {
         max-width: 450px; /* Ancho máximo para cada imagen */
         width: 200px;
-        margin: 5px;
+        margin: 30px;
         height: 200px;
         border-radius: 10px;
     }
@@ -649,6 +702,7 @@ nav ul li a:hover {
         color: #6c5b7b;
         font-size: 20px;
         margin-right: 0px;
+        margin: 0px;
     }
     
     .img-main p strong {
@@ -817,6 +871,7 @@ nav ul li a:hover {
     max-width: 300px;
     height: auto;
     border-radius: 10px;
+    margin-left: 0px;
 }
 
 /*seccion destaca tu identidad*/
@@ -854,7 +909,7 @@ nav ul li a:hover {
 
 /*seccion crea una conexion duradera*/
 
-.seccion-CD {
+.seccion-CD  {
     background-color: #d8bce0;
     display: flex;
     flex-direction: column;
@@ -873,17 +928,19 @@ nav ul li a:hover {
     font-size: 40px;
 }
 
-.seccion-CD p {
+.seccion-CD  p {
     margin: 30px;
     color: #9A7BB7;
     text-align: center;
 }
 
-.seccion-CD img {
+.seccion-CD  img {
     max-width: 300px;
     height: auto;
     border-radius: 10px;
+    margin: 0px;
 }
+
 
 /*seccion haz que tu marca cuente una historia*/
 
@@ -1055,6 +1112,10 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+.seccion-TTV div {
+    margin-left: 0px;
+}
+
 .seccion-TTV  h2 {
     margin-right: 10px;
     color: #563d7c;
@@ -1105,6 +1166,10 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+.seccion-CMD div {
+    margin-right: 0px;
+}
+
 /*seccion logos*/
 
 .imagenes-logos{
@@ -1144,5 +1209,109 @@ nav ul li a:hover {
     height: 300px;
     border-radius: 10px;
 }
+
+/*seccion de redes*/
+
+.redes {
+    background-color: #D8BCE0;
+    align-items: center;;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.redes h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #9A7BB7;
+    margin: 10px;
+    padding: 10px;
+}
+
+.redes ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.redes ul li {
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.redes ul li a img  {
+    background-color: #9A7BB7;
+    border-radius: 10px;
+    width: 40px;
+    border-radius: 70px;
+    text-align: center;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
+
+.seccion-cotizar {
+    background-color: #D8BCE0;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex; /* Activa Flexbox */
+    flex-direction: column;
+}
+
+.seccion-cotizar form {
+    margin-top: 20px;
+}
+
+.seccion-cotizar label{
+    color: #A787C6;
+    margin: 10px;
+}
+
+.seccion-cotizar input{
+    width: 330px;
+    height: 28px;
+    background-color: #C1B1CE;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.title-cotizar {
+    color: #A787C6;
+    text-align: center;
+    background-color: #D8BCE0;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.seccion-cotizar img{
+    max-width: 300px;
+    margin-left: 20px;
+    filter: drop-shadow(10px 10px 10px #5c4a6d);
+}
+
+.seccion-cotizar button {
+    all: unset;
+    border: none;
+    background-color: #896CAC;
+    padding: 0;
+    cursor: pointer;
+    color: #D8BCE0;
+    margin-left: 130px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.contenedor-seccion-cotizar {
+    position: relative;
+}
+
 
 }
