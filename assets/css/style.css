@@ -70,6 +70,7 @@ nav ul li a:hover {
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 100px;
+    justify-content: space-between;
 }
 
 .img-main img {
@@ -203,6 +204,7 @@ nav ul li a:hover {
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 .title-branding {
