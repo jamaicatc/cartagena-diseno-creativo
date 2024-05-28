@@ -62,6 +62,10 @@ nav ul li a:hover {
 }
 
 /*imagenes del contenido principal main*/
+main {
+    max-width: 100%;
+}
+
 .img-main {
     display: flex;
     align-items: center;
